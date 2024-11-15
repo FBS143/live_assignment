@@ -41,12 +41,12 @@ class bloodDonationScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
-              radius: 50,
+              radius: 80,
               backgroundColor: Colors.grey[700],
               child: Icon(
                 Icons.bloodtype,
                 color: Colors.redAccent,
-                size: 80,
+                size: 100,
               ),
             ),
             SizedBox(
